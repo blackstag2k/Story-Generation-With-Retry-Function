@@ -65,148 +65,14 @@ python main.py
 **Output**
 
 Output JSON:
-| story_content | final_story |
-|------|------|
-| # Story DNA & Style DNA
-## 🌱 Story DNA
+## 🧠 LLM Story Control System
 
-**Core Theme**  
-Small acts of sharing foster community connection and amplify joy.
+This table shows how a **structured prompt (Story + Style DNA)** becomes a **controlled narrative output**.
 
-**Emotional Arc**  
-Wonder → Worry → Hope → Surprise → Choice → Warm Joy
+| **Prompt Seed (Story + Style DNA)** | **LLM Output (Generated Story)** |
+|-----------------------------------|----------------------------------|
+| **Core Theme**  <br> Small acts of sharing foster community connection and amplify joy.  <br><br> **Emotional Arc**  <br> Wonder → Worry → Hope → Surprise → Choice → Warm Joy  <br><br> **Protagonist**  <br> Taru (4 years old)  <br><br> **Setting**  <br> Himalayan mountain village with stone lanes, pine scent, chai steam, and goat bells  <br><br> **Conflict**  <br> Taru wants her apple, but a hungry baby goat needs it  <br><br> **Tone & Style**  <br> Joyful, warm, expressive, rhythmic, with repetition and emojis | **Taru’s Shiny Apple**  <br><br> Taru skipped down the stone lane, holding her shiny red apple. “Zoom! Zoom! 🍎” she sang. It was so red, so shiny — she loved it, loved it, loved it!  <br><br> Oops! 😱 The apple slipped and rolled down the terraced path into the sunshine. “My apple! My apple!”  <br><br> A tiny baby goat was nibbling it. “Baa-baa-baa!” it cried, so hungry. Taru’s heart tugged — she wanted her apple, but the goat needed it.  <br><br> Mama knelt beside her. “Sometimes sharing makes everything bloom,” she whispered.  <br><br> Taru broke the apple in half. “Here you go, baa-baa!”  <br><br> Soon villagers shared greens and bread, and laughter filled the lane. “Sharing is fun!” Taru beamed as warmth spread through the whole village. 🌞 |
 
-**Protagonist Age**  
-4 years old
-
-**Setting**  
-A Himalayan mountain village with stone-paved lanes, terraced fields, and sensory details like pine, chai, and goat bells.
-
-**Genre**  
-Community Story + Lost-and-Found Tale
-
-**Conflict Type**  
-Internal conflict — Taru’s desire to reclaim a lost item vs. empathy for a hungry creature.
-
-**Resolution Style**  
-Empathetic sharing, resolving internal conflict through generosity and community support.
-
----
-
-## 🎨 Style DNA
-
-**Tone**  
-Joyful, enthusiastic, and comforting, with expressive use of emojis to amplify emotion.
-
-**Rhythm**  
-Flowing and lively, with a playful, slightly rhythmic cadence achieved through repetition and varied sentence lengths, often accelerating with excitement.
-
-**Repetition**  
-Key phrases and sounds (e.g., *“Choo-choo!”*, *“loved it, loved it, loved it”*, *“Sharing is fun!”*) are repeated to emphasize emotion and create a musical quality.
-
-**Dialogue Style**  
-Simple, direct, and emotionally expressive.  
-Adult dialogue is gently guiding, while children’s dialogue is immediate and reflects their feelings directly.
-
-**Emotional Pacing**  
-Quick shifts from initial joy to mild sadness or hesitation, then a rapid and clear resolution to shared happiness and contentment.
-
-**Warmth Level**  
-Very high — infused with overt expressions of warmth, comfort, and nurturing through physical touch, gentle guidance, and descriptions of internal emotional warmth.| # Taru’s Shiny Apple
-
-Taru, 4 years old, skipped down the stone lane, holding her shiny red apple.  
-"Zoom! Zoom! 🍎" she sang.  
-It was *so* red! So shiny!  
-She loved it, loved it, loved it!  
-
-The scent of fresh pine needles danced in the air, and far-off goat bells went *ting-a-ling!*  
-This apple was going to be the *best*!
-
----
-
-## 🍎 The Apple Rolls Away
-
-Oops! 😱  
-The shiny red apple slipped!  
-It rolled!  
-
-Down the terraced path it tumbled, past green growing things, right into a patch of sunshine.
-
-"My apple! My apple!"  
-Taru’s happy bounce turned into a tiny worry-wiggle.  
-"Oh no!"
-
----
-
-## 🐐 A Hungry Surprise
-
-She tiptoed closer, hope peeking in her eyes.  
-There it was!  
-
-But wait!  
-A tiny baby goat, all fluffy white, was nibbling her apple!
-
-"Baa-baa-baa!" cried the goat, looking so, so hungry.
-
-Taru's heart felt a little tug.  
-She wanted her apple back.  
-It was *hers*! 🥺  
-
-But the baby goat's eyes were big and sad, and its little nose twitched.
-
----
-
-## ☕ Mama’s Wise Words
-
-Mama appeared, a warm mug of chai in her hands.
-
-"What troubles you, my little sunbeam?" she asked, her voice soft and comforting.
-
-Taru pointed.  
-"My apple... but the goat is hungry, Mama!"
-
-Mama knelt, giving Taru a warm squeeze.
-
-"Sometimes, sharing makes everything bloom," she whispered.  
-"It makes your heart glow with warmth."
-
----
-
-## 🍏 A Brave Choice
-
-Taru looked at her apple, then at the baby goat's wobbly legs.
-
-Sharing…
-
-"Okay!" she decided, a brave, warm feeling bubbling in her chest.
-
-She carefully broke the apple in half, offering a piece to the goat.
-
-"Here you go, baa-baa! For you!"
-
----
-
-## 🎉 Joy Grows
-
-"Baa!" said the goat, munching happily!
-
-Mama smiled, a wide, joyful smile.
-
-Other villagers walking by saw.
-
-"A hungry goat!"  
-Uncle Pemba brought a handful of fresh greens.  
-Auntie Dawa shared a piece of flatbread.
-
-Soon, everyone was sharing!  
-More goats came, more happy giggles! 🎉
-
-Taru felt her heart burst with warm joy.
-
-"Sharing is fun!  
-Sharing is *so* fun!" she beamed, snuggling into Mama's side.
-
-The whole stone lane felt sparkly and warm, like sunshine in a hug.|
 
 ## Tools Used
 
@@ -223,6 +89,7 @@ The whole stone lane felt sparkly and warm, like sunshine in a hug.|
 
 
 Documented during the Prompt Engineering Course for Prompt Chaining and Content Generation
+
 
 
 
