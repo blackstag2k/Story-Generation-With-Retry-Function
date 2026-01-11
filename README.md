@@ -78,7 +78,6 @@ Output JSON:
 | story_content | final_story |
 |------|------|
 | # Story DNA & Style DNA
-
 ## 🌱 Story DNA
 
 **Core Theme**  
@@ -234,6 +233,7 @@ The whole stone lane felt sparkly and warm, like sunshine in a hug.|
 
 
 Documented during the Prompt Engineering Course for Prompt Chaining and Content Generation
+
 
 
 
