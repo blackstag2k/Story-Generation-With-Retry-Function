@@ -4,7 +4,8 @@ This project is about generating a story for toddlers (3-4 years of age) using t
 
 ## Workflow
 
-```flowchart TD
+```mermaid
+flowchart TD
 A([Start]) --> B[Initialize Gemini Client]
 
 B --> C[Load DOCX files]
@@ -222,6 +223,7 @@ The whole stone lane felt sparkly and warm, like sunshine in a hug.|
 
 
 Documented during the Prompt Engineering Course for Prompt Chaining and Content Generation
+
 
 
 
