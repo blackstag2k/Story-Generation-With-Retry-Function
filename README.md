@@ -5,41 +5,30 @@ This project is about generating a story for toddlers (3-4 years of age) using t
 ## Workflow
 
 ```flowchart TD
-    A[Start] --> B[Load API Key & Initialize Gemini Client]
+A([Start]) --> B[Initialize Gemini Client]
 
-    B --> C[Load DOCX Files]
-    C --> C1[DOCUMENT_1: Taru Story]
-    C --> C2[DOCUMENT_2: Reference Style Story]
+B --> C[Load DOCX files]
+C --> D1[Read Taru story]
+C --> D2[Read Reference story]
 
-    C1 --> D[read_doc_text()]
-    C2 --> D
+D1 --> E[Extract text]
+D2 --> E
 
-    D --> E[Extract Text from Both Documents]
+E --> F[Generate Story and Style DNA]
+F --> G[Gemini API call]
 
-    E --> F[generate_story_content()]
-    F --> F1[Build Prompt 1]
-    F1 --> F2[Send to Gemini]
-    F2 --> F3[Extract Story DNA + Style DNA]
+G -->|Retry on failure| F
+G --> H[Structured Story DNA]
 
-    F3 -->|Retry if API fails| F2
+H --> I[Generate Final Story]
+I --> J[Gemini API call]
 
-    F3 --> G[Story DNA Object]
+J -->|Retry on failure| I
+J --> K[Story plus Critique plus Rewrite]
 
-    G --> H[generate_final_story()]
-    H --> H1[Build Prompt 2]
-    H1 --> H2[Send to Gemini]
-    H2 --> H3[Generate Story + Critique + Rewrite]
-
-    H3 -->|Retry if API fails| H2
-
-    H3 --> I[Final Gold-Standard Story]
-
-    I --> J[Package Output as JSON]
-    G --> J
-
-    J --> K[Write taru_apple_puppy.json]
-    K --> L[Print Success Message]
-    L --> M[End]
+K --> L[Create JSON Output]
+L --> M[Write taru_apple_puppy.json]
+M --> N([End])
 ```
 
 ## Steps to Run the Code
@@ -233,6 +222,7 @@ The whole stone lane felt sparkly and warm, like sunshine in a hug.|
 
 
 Documented during the Prompt Engineering Course for Prompt Chaining and Content Generation
+
 
 
 
