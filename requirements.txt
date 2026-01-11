@@ -1,0 +1,5 @@
+google generative ai
+Python docx
+JSON
+Time
+PATH from pathlib

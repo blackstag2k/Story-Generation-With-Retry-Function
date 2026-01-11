@@ -1,0 +1,46 @@
+Prompt 1: 
+
+You are a professional narrative engineer.
+
+SOURCE STORY:
+{taru_story}
+
+REFERENCE STYLE STORY:
+{reference_story}
+
+Extract a Story DNA object with:
+- core_theme
+- emotional_arc
+- protagonist_age
+- setting
+- genre
+- conflict_type
+- resolution_style
+
+Extract Style DNA from the reference:
+- tone
+- rhythm
+- repetition
+- dialogue_style
+- emotional_pacing
+- warmth_level
+
+
+Prompt 2: 
+
+You are a children's book author.
+
+Using ONLY this Story DNA:
+{story_dna}
+
+Write a completely original children's story.
+
+Rules:
+- Max 400 words
+- Must follow the theme, age, emotion, and setting
+- Must follow the Style DNA
+- Must not copy wording or scenes from the reference
+
+After writing the story:
+1. Critique it (emotion, clarity, rhythm, payoff)
+2. Rewrite it once to produce the final gold-standard version
